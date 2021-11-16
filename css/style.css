@@ -1,0 +1,498 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap');
+
+
+/*リセットCSS*/
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*修正箇所スタート*/
+
+body {
+  max-width: 1920px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #444444;
+}
+
+.header-left img {
+    max-width: 100%;
+}
+
+.sp_only {
+  display: none;
+}
+
+.header-text {
+    max-width: 1180px;
+    height: 130px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 76%;
+}
+.header-right {
+  text-align: right;
+}
+
+p.reception_time {
+    font-size: 14px;
+    display: block;
+    text-align: left;
+}
+
+.phone-text span {
+  display: inline-block;
+  color: #21A937;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+.phone-text img {
+    vertical-align: bottom;
+    width: 25px;
+    height: 25px;
+}
+.mainvisual {
+    height: 947px;
+    background: url(../img/fv.png) no-repeat center/cover;
+}
+.mainvisual__container {
+    width: 78%;
+    margin: 0 auto;
+    padding: 133px 0;
+}
+
+.mainvisual__title {
+    writing-mode: vertical-rl;
+}
+.mainvisual__title__inner {
+    display: block;
+    margin-right: 80px;
+    padding: 18px 35px 51px;
+    background: #fff;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+.mainvisual__title__color {
+    color: #21a937;
+}
+
+/*sec01*/
+
+.sec01 {
+  padding: 162px 0 82px;
+}
+
+h2.sec01_texttop {
+    display: inline-block;
+    font-size: 24px;
+    background: linear-gradient(transparent 50%, #99E5A5 70%);
+}
+h2.sec01_textcenter {
+    display: inline-block;
+    font-size: 24px;
+    background: linear-gradient(transparent 50%, #99E5A5 70%);
+    margin-top: 35px;
+}
+
+.sec01_text p {
+  margin-top: 40px;
+  line-height: 38px;
+}
+
+
+.inner {
+    display: flex;
+    max-width: 1180px;
+    margin:0 auto;
+    width: 80%;
+}
+
+.sec01_text {
+  padding: 31px;
+  padding-right: 40px;
+}
+.sec01_img {
+    max-width: 100%;
+}
+
+.sec01 img {
+  width: 100%;
+}
+
+.br_sp_only {
+  display: none;
+}
+
+/*sec02*/
+
+
+.sec02 .container{
+  background-color: #F5FCF8;
+  padding-top: 78px;
+}
+
+
+.sec02_title{
+  text-align: center;
+}
+.sec02_title span {
+  display: inline-block;
+  font-size: 24px;
+  background: linear-gradient(transparent 50%, #99E5A5 70%);
+  font-weight: bold;
+}
+
+.sec02_semititle {
+  text-align: center;
+  font-size: 16px;
+  line-height: 38px;
+  margin-top:70px;
+  margin-bottom: 35px;
+}
+.contents_items {
+  max-width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.contents_item {
+  position:relative;
+  width: calc((100% - 20px) / 3);
+  margin-right: 20px;
+  padding: 40px 28px 257px;
+  border: 2px solid #C9C9C9;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+.contents_item:last-of-type {
+  margin-right: 0;
+}
+
+.contents_items p+img {
+  width: 187px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.contents_item h3 {
+  line-height: 38px;
+  font-size: 26px;
+}
+
+.contents_item p {
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    line-height: 38px;
+    margin-top: 45px;
+}
+
+
+.info {
+    background-color: #F5FCF8;
+    padding: 82px 0 112px;
+}
+
+.section_title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 3.8rem;
+}
+
+
+.section_title span {
+    background: linear-gradient(transparent 50%, #99E5A5 70%);
+    padding-right: 5px;
+}
+
+.info_wrapper {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px #00000029;
+    padding: 30px 66px 42px;
+    max-width: 1190px;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: right;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.info_table{
+    display: flex;
+    border-bottom: 2px solid #E7E7E7;
+    padding: 15px 0;
+    align-items: center;
+}
+.info_data {
+    display: flex;
+    align-items: center;
+}
+.info_data_color {
+    display: block;
+    color: #21A937;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.info_data_list {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #444444;
+    width: 80px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-left: 30px;
+    line-height: 1.5rem;
+}
+.info_data_content {
+    font-weight: bold;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.info_btn {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    color: #444444;
+    font-weight: bold;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+}
+.info_btn:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: solid 7px transparent;
+    border-bottom: solid 7px transparent;
+    border-left: solid 10px #444444;
+    position: absolute;
+    top: 0;
+    right: -18px;
+    bottom: 0;
+    margin: auto;
+}
+
+
+/*footer*/
+
+footer {
+    padding: 196px 0 163px;
+}
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 80%;
+}
+iframe {
+  width: 100%;
+}
+.reception_time_wrapper {
+  margin-top: 20px;
+}
+
+.reception_info_wrapper {
+    padding-bottom: 19px;
+    margin-top: 20px;
+}
+
+.reception_contents {
+    border-top: 2px solid #E7E7E7;
+    border-bottom: 2px solid #E7E7E7;
+    font-size: 14px;
+    margin-top: 31px;
+}
+
+.footer_left {
+    width: 52%;
+}
+
+.footer_right {
+    width: calc(48% - 38px);
+}
+
+p.address {
+    margin: 26px 0 28px;
+}
+
+
+.address span {
+    margin-left: 16px;
+}
+
+dd {
+    line-height: 38px;
+}
+dd.reception_time1 {
+    padding-left: 23px;
+}
+dd.reception_time2 {
+    padding-left: 17px;
+}
+dl {
+  display: flex;
+  line-height: 38px;
+}
+.info_table dd{
+  line-height: 25px;
+}
+.info_table dl {
+  line-height: 25px;
+}
+
+
+.footer_reception_time {
+  display: flex;
+}
+
+.reception_time_wrapper dt{
+    border-right: 2px solid #E7E7E7;
+    width: 84px;
+    margin-right: 28px;
+}
+.reception_info_wrapper dt {
+  border-right: 2px solid #E7E7E7;
+  width: 84px;
+  margin-right: 28px;
+}
+
+.reception_info_wrapper dd {
+    padding-left: 0;
+}
+
+span.reception_day {
+    background: linear-gradient(transparent 50%, #99E5A5 70%);
+}
+.small_sp_only{
+  display: none;
+}
+
+small {
+    display: block;
+    margin-top: 22.5px;
+    text-align: right;
+    font-size: 11px;
+    line-height: 38px;
+    letter-spacing: -1px;
+}
